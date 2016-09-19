@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<canvas id="canvas" style="border:1px solid red; display:block; margin:auto"></canvas>
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload=function(){
+			var canvas = document.getElementById("canvas");
+			canvas.width = 1024;
+			canvas.height = 768;
+			var context = canvas.getContext('2d');
+			// context.beginPath();
+			// context.moveTo(100, 100);
+			// context.lineTo(700, 732);
+			// context.lineTo(300, 400);
+			// context.lineTo(100, 100);
+			// context.lineWidth = 5;
+			// context.strokeStyle = "red";
+			// context.fillStyle = "red";
+			// context.strokeStyle="green";
+			// context.stroke();
+			// context.fill();
+			// context.closePath();
+
+			// context.beginPath();
+			// context.moveTo(300,100);
+			// context.lineTo(800,700);
+			// context.lineTo(900,600);
+			// context.lineTo(300,100);
+			// context.lineWidth=3;
+			// context.stroke();
+
+
+		
+			// for(var i = 1; i < 11; i++) {
+			// 	context.beginPath();
+			// 	context.arc(i*80, 200, 30, 0, i*Math.PI/5);
+			// 	context.closePath();
+			// 	context.stroke();
+			// }
+
+			context.strokeStyle="red";
+			context.lineWidth=1;
+			
+			context.moveTo(100, 100);
+			context.lineTo(500, 500);
+			context.lineTo(100, 500);
+			context.lineTo(100, 100);
+			context.lineTo(500, 100);
+			context.lineTo(500, 500);
+			context.fill();
+			context.stroke();
+	
+
+	
+			
+		
+
+			context.stroke();
+
+
+
+
+
+		}
+	</script>>
+</body>
+</html>
